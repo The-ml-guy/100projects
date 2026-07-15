@@ -95,4 +95,4 @@ The goal of this repo is to serve as a **hands-on reference** for learning, revi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/datascience-llm/100projects.git
+   git clone https://github.com/The-ml-guy/100projects.git
