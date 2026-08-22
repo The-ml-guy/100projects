@@ -1,4 +1,5 @@
 #Master loading tabular data with pandas and inspect basic structure/summary statistics.
+#we will import the sklearn dataset for these
 import pandas as pd
 
 #load the dataset from Skearn
