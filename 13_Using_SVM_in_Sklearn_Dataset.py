@@ -30,3 +30,14 @@ print(confusion_matrix(y_test, predictions))
 
 print("\nClassification Report:")
 print(classification_report(y_test, predictions, target_names=cancer.target_names))
+
+
+#The Scores would be as per like below
+  #            precision    recall  f1-score   support
+
+  # malignant       0.95      0.93      0.94        67
+  #    benign       0.95      0.97      0.96       104
+
+  #  accuracy                           0.95       171
+  # macro avg       0.95      0.95      0.95       171
+# weighted avg      0.95      0.95      0.95       171
