@@ -1,7 +1,8 @@
 
-#The fastest and most robust way to implement a decision tree algorithm in Python is by using the Scikit-Learn Library. 
-#It provides highly optimized, production-ready classes for both classification and regression tasks.Below, you will find the standard implementation using scikit-learn,
-#followed by a lightweight implementation written entirely from scratch using NumPy to show you how the underlying math works.
+# The fastest and most robust way to implement a decision tree algorithm in Python is by using the Scikit-Learn Library. 
+# It provides highly optimized, production-ready classes for both classification and regression tasks.Below, you will find the standard implementation using scikit-learn,
+# followed by a lightweight implementation written entirely from scratch using NumPy to show you how the underlying math works.
+# # 'entropy' or 'gini' measures the quality of a split. max_depth prevents overfitting.
 
 #Method 1: Using Scikit-Learn (Production-Ready)This approach handles the heavy lifting like tree pruning, optimal splitting strategy, and evaluation metrics
 
