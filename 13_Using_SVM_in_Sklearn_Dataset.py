@@ -1,5 +1,7 @@
 # Using the SVM algorithm in the Sklearn Breast cancer Dataset.
 # Import necessary libraries
+
+
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
@@ -32,8 +34,8 @@ print("\nClassification Report:")
 print(classification_report(y_test, predictions, target_names=cancer.target_names))
 
 
-#The Scores would be as per like below
-  #            precision    recall  f1-score   support
+# The Scores would be as per like below
+  #            precision    recall  f1-score    support
 
   # malignant       0.95      0.93      0.94        67
   #    benign       0.95      0.97      0.96       104
